@@ -9,10 +9,16 @@
 @import url('components/icon.css');
 
 /* Utilities */
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: Open Sans;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4 {
@@ -24,8 +30,12 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .instructions {

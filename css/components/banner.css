@@ -3,7 +3,6 @@
   height: 300px;
   background-size: cover;
   background-position: 50% 50%;
-  text-align: center;
   margin-top: -30px;
   color: white;
   text-shadow: 0 0 5px black;
@@ -17,4 +16,15 @@
 
 .banner h2 {
   font-family: "Reem Kufi", sans-serif;
+}
+
+.banner a{
+  display: block;
+  width: 200px;
+  background: rgb(193, 139, 55);
+  color: white;
+  padding: 10px;
+  border-radius: 17px;
+  margin: 0 auto;
+  text-shadow: none;
 }
