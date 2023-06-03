@@ -3,6 +3,8 @@
   text-align: center;
   color: white;
   margin-bottom: -30px;
+  position:absolute;
+  bottom: 0px;
 }
 
 .footer h3 {
